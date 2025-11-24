@@ -15,10 +15,13 @@ entities:
 slots:
   hora:
     type: text
+    influence_conversation: true
   fecha:
     type: text
+    influence_conversation: true
   personas:
     type: text
+    influence_conversation: true
 
 responses:
   utter_saludo:
@@ -28,4 +31,3 @@ responses:
 
 actions:
   - action_guardar_reserva
-
