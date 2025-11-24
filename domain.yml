@@ -1,1 +1,31 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - reservar_mesa
+  - dar_hora
+  - dar_fecha
+  - dar_personas
+
+entities:
+  - hora
+  - fecha
+  - personas
+
+slots:
+  hora:
+    type: text
+  fecha:
+    type: text
+  personas:
+    type: text
+
+responses:
+  utter_saludo:
+    - text: "¡Hola! Bienvenido al restaurante. ¿Deseas reservar una mesa?"
+  utter_confirmar:
+    - text: "Perfecto, reservaré una mesa para {personas} personas el {fecha} a las {hora}."
+
+actions:
+  - action_guardar_reserva
 
