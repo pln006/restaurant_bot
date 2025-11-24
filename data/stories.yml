@@ -1,1 +1,12 @@
+version: "3.1"
+
+stories:
+- story: reserva completa
+  steps:
+  - intent: reservar_mesa
+  - intent: dar_personas
+  - intent: dar_fecha
+  - intent: dar_hora
+  - action: action_guardar_reserva
+  - action: utter_confirmar
 
