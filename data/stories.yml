@@ -9,4 +9,3 @@ stories:
   - intent: dar_hora
   - action: action_guardar_reserva
   - action: utter_confirmar
-
