@@ -5,12 +5,14 @@ nlu:
   examples: |
     - hola
     - buenos días
+    - buenas tardes
     - que tal
 
 - intent: reservar_mesa
   examples: |
     - quiero reservar una mesa
     - deseo hacer una reserva
+    - me gustaría reservar
 
 - intent: dar_hora
   examples: |
@@ -23,6 +25,7 @@ nlu:
     - mañana
     - este viernes
     - el 25 de enero
+    - el sábado
 
 - intent: dar_personas
   examples: |
