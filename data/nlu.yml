@@ -1,0 +1,31 @@
+version: "3.1"
+
+nlu:
+- intent: saludar
+  examples: |
+    - hola
+    - buenos días
+    - que tal
+
+- intent: reservar_mesa
+  examples: |
+    - quiero reservar una mesa
+    - deseo hacer una reserva
+
+- intent: dar_hora
+  examples: |
+    - a las 8pm
+    - a las 19:00
+    - para las 13 horas
+
+- intent: dar_fecha
+  examples: |
+    - mañana
+    - este viernes
+    - el 25 de enero
+
+- intent: dar_personas
+  examples: |
+    - para 2 personas
+    - somos 4
+    - una mesa para 6
